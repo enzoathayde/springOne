@@ -29,7 +29,7 @@ function cadastrar() {
         'Content-Type': 'application/json'
       },
       method: "POST", // ENVIAR ALGO 
-      body: JSON.stringify({nome: nome.value,
+      body: JSON.stringify({nome: nome.value, 
         email: email.value,
         senha: senha.value,
         telefone: telefone.value})
