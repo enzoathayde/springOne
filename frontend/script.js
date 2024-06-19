@@ -22,7 +22,7 @@ function limpar() {
 // precisa de uma API para funcionamento
 function cadastrar() {
   
-  fetch("http://localhost:8080/cadastrar",
+  fetch("http://localhost:8080/usuarios",
     {
       headers: {
         'Accept': 'application/json',
